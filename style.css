@@ -7,6 +7,9 @@ body {
 h1 {
     font-size: 50px;
 }
+h2 {
+    font-size: 40px;
+}
 .flexContainer {
     display: flex;
 }
@@ -69,22 +72,51 @@ h1 {
 .thirdSection {
     background-image: url(./images/exp-bg.png);
     background-repeat: no-repeat;
+    background-position-x: left;
+    background-position-y: center;
 }
-.expTitle {
-    
-}
-
 .fullDev, .babyDev  {
     width:40%;
     float: left;
     margin-left: 5%;
-    padding-left: 2%;
+    padding-left: 20px;
+    box-shadow: 10px 10px 40px gray;
+    margin-left: 5%;
+    margin-right: 5%;
+    border-radius: 5px;
+    padding-bottom: 5%;
+}
+#babyBorder {
+    border-image: linear-gradient(cyan, blue);
+    border-image-slice: 1;
+    border-left: 7px solid;
+}
+#fullBorder {
+    border-image: linear-gradient(salmon, hotpink);
+    border-image-slice: 1;
+    border-left: 7px solid;
 }
 
 
 
-.experienceName {}
+.experienceName {
+    font-family: 'Ubuntu' sans-serif;
+}
 
-.experienceTitle {}
+.experienceTitle {
+    color: orange;
+}
 
 /* third section css done */
+/* footer section css */
+.footerText {
+    text-align: center;
+    padding-top: 10%;
+}
+.footerName {
+    text-decoration: none;
+    color: black;
+}
+.footerName:hover {
+    color: hotpink;
+}
