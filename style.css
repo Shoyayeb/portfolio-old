@@ -9,12 +9,12 @@ h1 {
     font-size: 50px;
 }
 .welcomeText {
-    width: 50%;
-    padding: 5%;
+    width: 40%;
+    padding-left: 7%;
 }
 .firstBgImage {
-    width: 600px;
-    height: 603px;
+    width: 74%;
+    margin-left: 15%;
 }
 .hireButton {
     text-decoration: none;
@@ -33,3 +33,20 @@ h1 {
     background-repeat: no-repeat;
     display: flex;
 }
+.secondSection {
+    background-image: url(./images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    display: flex;
+}
+.secondBgImage {
+    width: 606px;
+    /* height: 603px; */
+    padding-left: 15%;
+}
+.middleText {
+    width: 40%;
+    padding-left: 5%;
+}
+
