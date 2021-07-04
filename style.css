@@ -1,21 +1,37 @@
+/* whole body css start */
 body {
     font-family: 'Poppins', sans-serif;
     margin: 0;
 }
-.ownerOfWrold {
-    color: orange;
-}
+
 h1 {
     font-size: 50px;
 }
+.flexContainer {
+    display: flex;
+}
+
+/* body css done */
+/* first section css start */
+.firstSection {
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+}
+
+.ownerOfWrold {
+    color: orange;
+}
+
 .welcomeText {
     width: 40%;
     padding-left: 7%;
 }
+
 .firstBgImage {
     width: 74%;
     margin-left: 15%;
 }
+
 .hireButton {
     text-decoration: none;
     /* background-color: orange; */
@@ -25,28 +41,50 @@ h1 {
     color: white;
     font-weight: 700;
 }
+
 .hireButton:hover {
     background-image: linear-gradient(tomato, orange);
 }
-.firstSection {
-    background-image: url(./images/top-banner.png);
-    background-repeat: no-repeat;
-    display: flex;
-}
+
+/* first section css done */
+/* second section css start*/
 .secondSection {
     background-image: url(./images/dream-bg.png);
     background-repeat: no-repeat;
     background-position-x: right;
     background-position-y: center;
-    display: flex;
 }
+
 .secondBgImage {
     width: 606px;
-    /* height: 603px; */
     padding-left: 15%;
 }
+
 .middleText {
     width: 40%;
     padding-left: 5%;
 }
+/* second section css done */
+/* third section css start*/
+.thirdSection {
+    background-image: url(./images/exp-bg.png);
+    background-repeat: no-repeat;
+}
+.expTitle {
+    
+}
 
+.fullDev, .babyDev  {
+    width:40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+}
+
+
+
+.experienceName {}
+
+.experienceTitle {}
+
+/* third section css done */
