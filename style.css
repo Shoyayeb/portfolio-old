@@ -1,5 +1,6 @@
 body {
     font-family: 'Poppins', sans-serif;
+    margin: 0;
 }
 .ownerOfWrold {
     color: orange;
@@ -7,20 +8,18 @@ body {
 h1 {
     font-size: 50px;
 }
-section {
-    display: flex;
-}
 .welcomeText {
     width: 50%;
     padding: 5%;
 }
 .firstBgImage {
-    width: 80%;
+    width: 600px;
+    height: 603px;
 }
 .hireButton {
     text-decoration: none;
     /* background-color: orange; */
-    background-image: linear-gradient(orange, tomato);
+    background-image: linear-gradient(rgb(252, 180, 48), rgb(250, 81, 51));
     padding: 10px 40px;
     border-radius: 5px;
     color: white;
@@ -28,4 +27,9 @@ section {
 }
 .hireButton:hover {
     background-image: linear-gradient(tomato, orange);
+}
+.firstSection {
+    background-image: url(./images/top-banner.png);
+    background-repeat: no-repeat;
+    display: flex;
 }
