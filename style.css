@@ -10,3 +10,19 @@ h1 {
 section {
     display: flex;
 }
+.welcomeText {
+    width: 50%;
+    padding: 5%;
+}
+.firstBgImage {
+    width: 80%;
+}
+.hireButton {
+    text-decoration: none;
+    /* background-color: orange; */
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border-radius: 5px;
+    color: white;
+    font-weight: 700;
+}
