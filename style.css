@@ -1,11 +1,3 @@
-/* 
- */
-/* 
-  */
-/* 
-   */
-/* 
-    */
 @media only screen and (max-width: 768px) {
     body {
         text-align: center;
@@ -15,11 +7,11 @@
     }
 
     h1 {
-        font-size: 50px;
+        font-size: 40px;
     }
 
     h2 {
-        font-size: 40px;
+        font-size: 30px;
     }
 
     .firstSection {
@@ -31,15 +23,15 @@
         color: orange;
     }
 
-    
-
     .firstBgImage {
         width: 74%;
     }
 
     .secondBgImage {
         width: 74%;
+        margin-top: 12%;
     }
+
     .secondSection {
         background-image: url(./images/dream-bg.png);
         background-repeat: no-repeat;
@@ -49,10 +41,15 @@
     }
 
 
-    .secondSection,
     .firstSection {
         display: flex;
         flex-direction: column-reverse;
+    }
+
+    .secondSection {
+        display: flex;
+        flex-direction: column-reverse;
+        justify-content: center;
     }
 
     .hireButton {
@@ -67,6 +64,7 @@
     .hireButton:hover {
         background-image: linear-gradient(45deg, red, tomato);
     }
+
     .footerText {
         text-align: center;
         padding-top: 10%;
@@ -81,6 +79,31 @@
     .footerName:hover {
         color: hotpink;
     }
+
+    .fullDev,
+    .babyDev {
+        width: 80%;
+        margin-left: 5%;
+        padding-left: 20px;
+        box-shadow: 3px 2px 9px gray;
+        margin-left: 5%;
+        margin-right: 5%;
+        border-radius: 5px;
+        padding-bottom: 15%;
+    }
+
+    #babyBorder {
+        border-image: linear-gradient(cyan, blue);
+        border-image-slice: 1;
+        border-left: 2px solid;
+    }
+
+    #fullBorder {
+        border-image: linear-gradient(salmon, hotpink);
+        border-image-slice: 1;
+        border-left: 2px solid;
+    }
+
 
 
 }
@@ -127,13 +150,6 @@
     }
 
     .hireButton {
-        /* text-decoration: none;
-    background-color: orange;
-    background-image: linear-gradient(lightsalmon, tomato);
-    padding: 10px 40px;
-    border-radius: 5px;
-    color: white;
-    font-weight: 700; */
         text-decoration: none;
         background: linear-gradient(45deg, lightsalmon, tomato);
         padding: 10px 40px;
@@ -199,8 +215,6 @@
         border-left: 7px solid;
     }
 
-
-
     .experienceName {
         font-family: 'Ubuntu'sans-serif;
     }
@@ -224,6 +238,4 @@
     .footerName:hover {
         color: hotpink;
     }
-
-
 }
